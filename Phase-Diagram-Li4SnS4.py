@@ -2,12 +2,7 @@ from pymatgen.ext.matproj import MPRester
 from pymatgen.apps.borg.hive import VaspToComputedEntryDrone
 from pymatgen.apps.borg.queen import BorgQueen
 from pymatgen.entries.compatibility import MaterialsProjectCompatibility
-from pymatgen.analysis.phase_diagram import PhaseDiagram
-from pymatgen.analysis.phase_diagram import PDPlotter
-
-
-#from matplotlib.font_manager import FontProperties
-
+from pymatgen.analysis.phase_diagram import PhaseDiagram, PDPlotte
 
 # Assimilate VASP calculations into ComputedEntry object. Let's assume that
 # the calculations are for a series of new LixSnySz phases that we want to
