@@ -12,7 +12,7 @@ queen = BorgQueen(drone, rootpath=".")
 entries = queen.get_data()
 
 # Obtain all existing Li-Sn-S phases using the Materials Project REST API
-with MPRester("Fvlb5EsNq71JxDy3") as m:
+with MPRester("Key") as m:
     mp_entries = m.get_entries_in_chemsys(["Li", "Sn", "S"])
 
 # Combined entry from calculated run with Materials Project entries
