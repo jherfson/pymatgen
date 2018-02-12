@@ -31,6 +31,4 @@ entries = compat.process_entries(entries)
 
 pd = PhaseDiagram(entries)
 plotter = PDPlotter(pd, color='black', markerfacecolor='c', markersize=15, linewidth = 1)
-#plotter.show()
-#print(entries)
-print(pd)
+plotter.show()
